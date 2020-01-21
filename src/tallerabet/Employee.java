@@ -34,6 +34,9 @@ public class Employee
     }
     //calcula el salario dependiendo del tipo de trabajador 
     //y entrega el décimo correspondiente cada 2 meses
+    
+    //la variable salario puede ser modificada fácilmente por valores negativos
+    //El enum es un problema si quiero poner más tipos de empleados y no están dentro del switch
     public float cs() {
         float salario = 0;
         Date date = new Date();
