@@ -49,7 +49,7 @@ public class Employee
         int month = localDate.getMonthValue();
         // Si la moneda es USD, se considera todo el salario,
         // caso contrario se resta 5% por cambio de moneda
-        if(currency == "USD"){salario = salary; }
+        if(currency == "USD"|| currency =="usd"){salario = salary; }
         else{salario = (float) (salary * 0.95);}
         switch (employeeType)         
         {
