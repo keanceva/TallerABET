@@ -9,4 +9,4 @@ package tallerabet;
  *
  * @author CltControl
  */
-public enum EmployeeType { Worker, Supervisor, Manager }
+public enum EmployeeType { Worker, Supervisor, Manager, Secretary, President }
